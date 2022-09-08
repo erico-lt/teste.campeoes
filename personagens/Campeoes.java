@@ -1,3 +1,5 @@
+package personagens;
+
 public class Campeoes{
     private String nome;
     private String posicao;
@@ -38,5 +40,5 @@ public class Campeoes{
         return "Nome: " + this.getNome() + 
         "\nPosicão: " + this.getPosicao() + 
         "\nPower: " + this.getPower();
-    }    
+    }
 }
